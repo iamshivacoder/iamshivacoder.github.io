@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background: url(bg.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+h2{
+    color: orange;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    font-size: 55px;
+    border-bottom: 5px solid orange;
+    font-style: italic  ;
+    outline: none;
+}
+.logo{
+     position: absolute;
+     top:330px; 
+     right:640px;
+}
+.container{ 
+    color: white;
+    position: absolute;
+    top: 36%;
+    left: 10%; 
+}
+.container h1{
+    font-family: 'Heebo', sans-serif;
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid orange;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+.box{
+    width: 100%; 
+    margin: 22px 0px;
+    border-bottom: 2px solid orange;
+    
+}
+.box input{  
+    background: none;
+    width: 500px;
+    padding: 20px 25px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    outline:none;
+}
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none; 
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    font-size: 25px;
+    background: coral;
+    font-weight: bold;
+}
+.box i {
+  width: 25px;
+  text-align: center;
+}
+.btn:hover{
+    opacity: 0.5;
+    color: purple; 
+    background: white; 
+    
+}
+footer h3{
+         position: absolute;
+         top:90%;
+         left: 40%;
+         color: white;
+         font-size: 35px;
+         font-style: italic;
+        
+         
+}
+.ort{
+    position: absolute;
+         top:93%;
+         left: 32%;
+         color: white;
+         font-size: 35px;
+        font-style: italic;
+        padding: 5px;
+        
+}
+
